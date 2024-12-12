@@ -1,6 +1,6 @@
-﻿namespace Gym.CoreNew.Entities
+﻿namespace gym.CoreNew.Entities
 {
-    public class teather
+    public class teacher
     {
         public enum Geners
         {
@@ -14,7 +14,7 @@
         public List<cours> Courses { get; set; }
         public Geners MyExpiriens { get; set; }
 
-        public teather(string name, string id, string phone, List<cours> courses, Geners myExpiriens)
+        public teacher(string name, string id, string phone, List<cours> courses, Geners myExpiriens)
         {
             Name = name;
             Id = id;
@@ -22,6 +22,6 @@
             Courses = courses;
             MyExpiriens = myExpiriens;
         }
-        public teather() { }
+        public teacher() { }
     }
 }

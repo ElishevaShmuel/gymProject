@@ -1,14 +1,15 @@
-﻿using Gym.CoreNew.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using gym.CoreNew.Entities;
 
-namespace Gym.CoreNew.Repositories
+
+namespace gym.CoreNew.Repositories
 {
     public interface IcoursRepository
     {
         public List<cours> GetCours();
+        public cours GetById(int id);
+        public bool set(cours c);
+        public  bool putTimeOption(int id,time_operation t);
+        public bool deletecours(int id);
+
     }
 }

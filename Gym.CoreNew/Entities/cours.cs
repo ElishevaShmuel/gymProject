@@ -1,6 +1,6 @@
-﻿using static Gym.CoreNew.Entities.teather;
+﻿using static gym.CoreNew.Entities.teacher;
 
-namespace Gym.CoreNew.Entities
+namespace gym.CoreNew.Entities
 {
     public class cours
     {
@@ -8,6 +8,7 @@ namespace Gym.CoreNew.Entities
         public int Id { get; set; }
         public Geners Gener { get; set; }
         public time_operation OperationTime { get; set; }
+        
 
         public cours() { }
 

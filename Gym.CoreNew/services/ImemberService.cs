@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using gym.CoreNew.Entities;
 
-namespace Gym.CoreNew.services
+
+
+namespace gym.CoreNew.services
 {
     public interface ImemberService
     {
+        public List<member> Getmember();
+        public member GetById(string id);
+        public bool set(member c);
+        public bool putName(string id, string name);
+        public bool deletemember(string id);
     }
 }

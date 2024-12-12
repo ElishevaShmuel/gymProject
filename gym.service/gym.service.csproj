@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\unitText\gym.data.csproj" />
+    <ProjectReference Include="..\Gym.CoreNew\gym.CoreNew.csproj" />
   </ItemGroup>
 
 </Project>

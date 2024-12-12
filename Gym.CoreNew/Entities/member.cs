@@ -1,4 +1,5 @@
-﻿namespace Gym.CoreNew.Entities
+﻿
+namespace gym.CoreNew.Entities
 {
     public class member
     {

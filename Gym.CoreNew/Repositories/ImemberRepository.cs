@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using gym.CoreNew.Entities;
 
-namespace Gym.CoreNew.Repositories
+
+namespace gym.CoreNew.Repositories
 {
     public interface ImemberRepository
     {
+        public List<member> Getmember();
+        public member GetById(string id);
+        public bool set(member c);
+        public bool putName(string id, string name);
+        public bool deletemember(string id);
     }
 }

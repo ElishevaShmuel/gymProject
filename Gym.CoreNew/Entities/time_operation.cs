@@ -1,7 +1,8 @@
-﻿namespace Gym.CoreNew.Entities
+﻿namespace gym.CoreNew.Entities
 {
     public class time_operation
     {
+        public int id { get; set; }
         public TimeOnly TimeStart { get; set; }
         public TimeOnly TimeEnd { get; set; }
 
